@@ -1,0 +1,285 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Escritoriovr0\\Lauti\\Universidad\\ProgIII\\Visual Studio\\FinalPrograIII\\FinalProg\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BB384A53-C375-4BDD-96BA-04CE173B58C0}|FinalProg.csproj|d:\\escritoriovr0\\lauti\\universidad\\progiii\\visual studio\\finalprograiii\\finalprog\\context\\sucursalescontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB384A53-C375-4BDD-96BA-04CE173B58C0}|FinalProg.csproj|solutionrelative:context\\sucursalescontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB384A53-C375-4BDD-96BA-04CE173B58C0}|FinalProg.csproj|d:\\escritoriovr0\\lauti\\universidad\\progiii\\visual studio\\finalprograiii\\finalprog\\models\\sucursal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB384A53-C375-4BDD-96BA-04CE173B58C0}|FinalProg.csproj|solutionrelative:models\\sucursal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB384A53-C375-4BDD-96BA-04CE173B58C0}|FinalProg.csproj|d:\\escritoriovr0\\lauti\\universidad\\progiii\\visual studio\\finalprograiii\\finalprog\\dtos\\getsucursaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB384A53-C375-4BDD-96BA-04CE173B58C0}|FinalProg.csproj|solutionrelative:dtos\\getsucursaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB384A53-C375-4BDD-96BA-04CE173B58C0}|FinalProg.csproj|d:\\escritoriovr0\\lauti\\universidad\\progiii\\visual studio\\finalprograiii\\finalprog\\repository\\impl\\sucursalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB384A53-C375-4BDD-96BA-04CE173B58C0}|FinalProg.csproj|solutionrelative:repository\\impl\\sucursalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB384A53-C375-4BDD-96BA-04CE173B58C0}|FinalProg.csproj|d:\\escritoriovr0\\lauti\\universidad\\progiii\\visual studio\\finalprograiii\\finalprog\\repository\\isucursalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB384A53-C375-4BDD-96BA-04CE173B58C0}|FinalProg.csproj|solutionrelative:repository\\isucursalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB384A53-C375-4BDD-96BA-04CE173B58C0}|FinalProg.csproj|d:\\escritoriovr0\\lauti\\universidad\\progiii\\visual studio\\finalprograiii\\finalprog\\services\\impl\\sucursalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB384A53-C375-4BDD-96BA-04CE173B58C0}|FinalProg.csproj|solutionrelative:services\\impl\\sucursalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB384A53-C375-4BDD-96BA-04CE173B58C0}|FinalProg.csproj|d:\\escritoriovr0\\lauti\\universidad\\progiii\\visual studio\\finalprograiii\\finalprog\\services\\isucursalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB384A53-C375-4BDD-96BA-04CE173B58C0}|FinalProg.csproj|solutionrelative:services\\isucursalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB384A53-C375-4BDD-96BA-04CE173B58C0}|FinalProg.csproj|d:\\escritoriovr0\\lauti\\universidad\\progiii\\visual studio\\finalprograiii\\finalprog\\controllers\\sucursalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB384A53-C375-4BDD-96BA-04CE173B58C0}|FinalProg.csproj|solutionrelative:controllers\\sucursalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB384A53-C375-4BDD-96BA-04CE173B58C0}|FinalProg.csproj|d:\\escritoriovr0\\lauti\\universidad\\progiii\\visual studio\\finalprograiii\\finalprog\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB384A53-C375-4BDD-96BA-04CE173B58C0}|FinalProg.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB384A53-C375-4BDD-96BA-04CE173B58C0}|FinalProg.csproj|d:\\escritoriovr0\\lauti\\universidad\\progiii\\visual studio\\finalprograiii\\finalprog\\dtos\\updatesucursaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB384A53-C375-4BDD-96BA-04CE173B58C0}|FinalProg.csproj|solutionrelative:dtos\\updatesucursaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB384A53-C375-4BDD-96BA-04CE173B58C0}|FinalProg.csproj|d:\\escritoriovr0\\lauti\\universidad\\progiii\\visual studio\\finalprograiii\\finalprog\\dtos\\getconfiguraciondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB384A53-C375-4BDD-96BA-04CE173B58C0}|FinalProg.csproj|solutionrelative:dtos\\getconfiguraciondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB384A53-C375-4BDD-96BA-04CE173B58C0}|FinalProg.csproj|d:\\escritoriovr0\\lauti\\universidad\\progiii\\visual studio\\finalprograiii\\finalprog\\models\\configuracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB384A53-C375-4BDD-96BA-04CE173B58C0}|FinalProg.csproj|solutionrelative:models\\configuracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB384A53-C375-4BDD-96BA-04CE173B58C0}|FinalProg.csproj|d:\\escritoriovr0\\lauti\\universidad\\progiii\\visual studio\\finalprograiii\\finalprog\\models\\provincia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB384A53-C375-4BDD-96BA-04CE173B58C0}|FinalProg.csproj|solutionrelative:models\\provincia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB384A53-C375-4BDD-96BA-04CE173B58C0}|FinalProg.csproj|d:\\escritoriovr0\\lauti\\universidad\\progiii\\visual studio\\finalprograiii\\finalprog\\models\\tiposucursal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB384A53-C375-4BDD-96BA-04CE173B58C0}|FinalProg.csproj|solutionrelative:models\\tiposucursal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB384A53-C375-4BDD-96BA-04CE173B58C0}|FinalProg.csproj|d:\\escritoriovr0\\lauti\\universidad\\progiii\\visual studio\\finalprograiii\\finalprog\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BB384A53-C375-4BDD-96BA-04CE173B58C0}|FinalProg.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Escritoriovr0\\Lauti\\Universidad\\ProgIII\\Visual Studio\\FinalPrograIII\\FinalProg\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Escritoriovr0\\Lauti\\Universidad\\ProgIII\\Visual Studio\\FinalPrograIII\\FinalProg\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T18:24:27.646Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SucursalController.cs",
+              "DocumentMoniker": "D:\\Escritoriovr0\\Lauti\\Universidad\\ProgIII\\Visual Studio\\FinalPrograIII\\FinalProg\\Controllers\\SucursalController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SucursalController.cs",
+              "ToolTip": "D:\\Escritoriovr0\\Lauti\\Universidad\\ProgIII\\Visual Studio\\FinalPrograIII\\FinalProg\\Controllers\\SucursalController.cs",
+              "RelativeToolTip": "Controllers\\SucursalController.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAwwCAAAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T18:56:18.515Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ISucursalService.cs",
+              "DocumentMoniker": "D:\\Escritoriovr0\\Lauti\\Universidad\\ProgIII\\Visual Studio\\FinalPrograIII\\FinalProg\\Services\\ISucursalService.cs",
+              "RelativeDocumentMoniker": "Services\\ISucursalService.cs",
+              "ToolTip": "D:\\Escritoriovr0\\Lauti\\Universidad\\ProgIII\\Visual Studio\\FinalPrograIII\\FinalProg\\Services\\ISucursalService.cs",
+              "RelativeToolTip": "Services\\ISucursalService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAcAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T18:48:55.145Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SucursalService.cs",
+              "DocumentMoniker": "D:\\Escritoriovr0\\Lauti\\Universidad\\ProgIII\\Visual Studio\\FinalPrograIII\\FinalProg\\Services\\Impl\\SucursalService.cs",
+              "RelativeDocumentMoniker": "Services\\Impl\\SucursalService.cs",
+              "ToolTip": "D:\\Escritoriovr0\\Lauti\\Universidad\\ProgIII\\Visual Studio\\FinalPrograIII\\FinalProg\\Services\\Impl\\SucursalService.cs",
+              "RelativeToolTip": "Services\\Impl\\SucursalService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T18:49:12.981Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ISucursalRepository.cs",
+              "DocumentMoniker": "D:\\Escritoriovr0\\Lauti\\Universidad\\ProgIII\\Visual Studio\\FinalPrograIII\\FinalProg\\Repository\\ISucursalRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\ISucursalRepository.cs",
+              "ToolTip": "D:\\Escritoriovr0\\Lauti\\Universidad\\ProgIII\\Visual Studio\\FinalPrograIII\\FinalProg\\Repository\\ISucursalRepository.cs",
+              "RelativeToolTip": "Repository\\ISucursalRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T18:52:14.647Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SucursalRepository.cs",
+              "DocumentMoniker": "D:\\Escritoriovr0\\Lauti\\Universidad\\ProgIII\\Visual Studio\\FinalPrograIII\\FinalProg\\Repository\\Impl\\SucursalRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\Impl\\SucursalRepository.cs",
+              "ToolTip": "D:\\Escritoriovr0\\Lauti\\Universidad\\ProgIII\\Visual Studio\\FinalPrograIII\\FinalProg\\Repository\\Impl\\SucursalRepository.cs",
+              "RelativeToolTip": "Repository\\Impl\\SucursalRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T18:52:32.703Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Sucursal.cs",
+              "DocumentMoniker": "D:\\Escritoriovr0\\Lauti\\Universidad\\ProgIII\\Visual Studio\\FinalPrograIII\\FinalProg\\Models\\Sucursal.cs",
+              "RelativeDocumentMoniker": "Models\\Sucursal.cs",
+              "ToolTip": "D:\\Escritoriovr0\\Lauti\\Universidad\\ProgIII\\Visual Studio\\FinalPrograIII\\FinalProg\\Models\\Sucursal.cs",
+              "RelativeToolTip": "Models\\Sucursal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T18:24:43.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SucursalesContext.cs",
+              "DocumentMoniker": "D:\\Escritoriovr0\\Lauti\\Universidad\\ProgIII\\Visual Studio\\FinalPrograIII\\FinalProg\\Context\\SucursalesContext.cs",
+              "RelativeDocumentMoniker": "Context\\SucursalesContext.cs",
+              "ToolTip": "D:\\Escritoriovr0\\Lauti\\Universidad\\ProgIII\\Visual Studio\\FinalPrograIII\\FinalProg\\Context\\SucursalesContext.cs",
+              "RelativeToolTip": "Context\\SucursalesContext.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAYwEMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T18:32:21.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GetSucursalDTO.cs",
+              "DocumentMoniker": "D:\\Escritoriovr0\\Lauti\\Universidad\\ProgIII\\Visual Studio\\FinalPrograIII\\FinalProg\\DTOs\\GetSucursalDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\GetSucursalDTO.cs",
+              "ToolTip": "D:\\Escritoriovr0\\Lauti\\Universidad\\ProgIII\\Visual Studio\\FinalPrograIII\\FinalProg\\DTOs\\GetSucursalDTO.cs",
+              "RelativeToolTip": "DTOs\\GetSucursalDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T19:03:10.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UpdateSucursalDTO.cs",
+              "DocumentMoniker": "D:\\Escritoriovr0\\Lauti\\Universidad\\ProgIII\\Visual Studio\\FinalPrograIII\\FinalProg\\DTOs\\UpdateSucursalDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\UpdateSucursalDTO.cs",
+              "ToolTip": "D:\\Escritoriovr0\\Lauti\\Universidad\\ProgIII\\Visual Studio\\FinalPrograIII\\FinalProg\\DTOs\\UpdateSucursalDTO.cs",
+              "RelativeToolTip": "DTOs\\UpdateSucursalDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T19:04:23.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GetConfiguracionDTO.cs",
+              "DocumentMoniker": "D:\\Escritoriovr0\\Lauti\\Universidad\\ProgIII\\Visual Studio\\FinalPrograIII\\FinalProg\\DTOs\\GetConfiguracionDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\GetConfiguracionDTO.cs",
+              "ToolTip": "D:\\Escritoriovr0\\Lauti\\Universidad\\ProgIII\\Visual Studio\\FinalPrograIII\\FinalProg\\DTOs\\GetConfiguracionDTO.cs",
+              "RelativeToolTip": "DTOs\\GetConfiguracionDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T19:00:28.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Configuracion.cs",
+              "DocumentMoniker": "D:\\Escritoriovr0\\Lauti\\Universidad\\ProgIII\\Visual Studio\\FinalPrograIII\\FinalProg\\Models\\Configuracion.cs",
+              "RelativeDocumentMoniker": "Models\\Configuracion.cs",
+              "ToolTip": "D:\\Escritoriovr0\\Lauti\\Universidad\\ProgIII\\Visual Studio\\FinalPrograIII\\FinalProg\\Models\\Configuracion.cs",
+              "RelativeToolTip": "Models\\Configuracion.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T18:28:26.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TipoSucursal.cs",
+              "DocumentMoniker": "D:\\Escritoriovr0\\Lauti\\Universidad\\ProgIII\\Visual Studio\\FinalPrograIII\\FinalProg\\Models\\TipoSucursal.cs",
+              "RelativeDocumentMoniker": "Models\\TipoSucursal.cs",
+              "ToolTip": "D:\\Escritoriovr0\\Lauti\\Universidad\\ProgIII\\Visual Studio\\FinalPrograIII\\FinalProg\\Models\\TipoSucursal.cs",
+              "RelativeToolTip": "Models\\TipoSucursal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T18:27:55.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Provincia.cs",
+              "DocumentMoniker": "D:\\Escritoriovr0\\Lauti\\Universidad\\ProgIII\\Visual Studio\\FinalPrograIII\\FinalProg\\Models\\Provincia.cs",
+              "RelativeDocumentMoniker": "Models\\Provincia.cs",
+              "ToolTip": "D:\\Escritoriovr0\\Lauti\\Universidad\\ProgIII\\Visual Studio\\FinalPrograIII\\FinalProg\\Models\\Provincia.cs",
+              "RelativeToolTip": "Models\\Provincia.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T18:27:37.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Escritoriovr0\\Lauti\\Universidad\\ProgIII\\Visual Studio\\FinalPrograIII\\FinalProg\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\Escritoriovr0\\Lauti\\Universidad\\ProgIII\\Visual Studio\\FinalPrograIII\\FinalProg\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-05T18:22:24.748Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

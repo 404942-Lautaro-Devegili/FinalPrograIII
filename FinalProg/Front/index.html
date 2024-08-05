@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Prog 3</title>
+    <link rel="stylesheet" href="estilos/bootstrap.css">
+    <style>
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 1rem 0;
+        }
+        header h1 {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header class="text-center">
+        <h1>Final Prog 3</h1>
+    </header>
+
+    <main class="container mt-4">
+        <form id="formulario">
+            <div class="mb-3">
+                <label for="idSucursal" class="form-label">Id:</label>
+                <!-- <input type="text" class="form-control" id="idSucursal" name="idSucursal"> -->
+                <select id="idSucursal" name="idSucursal" class="form-select">
+                    <option value="">Selecciona una sucursal</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <label for="nombre" class="form-label">Nombre:</label>
+                <input type="text" class="form-control" id="nombre" name="nombre">
+            </div>
+            <div class="mb-3">
+                <label for="ciudad" class="form-label">Ciudad:</label>
+                <input type="text" class="form-control" id="ciudad" name="ciudad">
+            </div>
+            <div class="mb-3">
+                <label for="tipo" class="form-label">Tipo:</label>
+                <select id="tipo" name="tipo" class="form-select">
+                    <option value="">Selecciona un tipo</option>
+                    <option value="F861C32F-8264-483C-B63A-40433BAA55DE">Pequeña</option>
+                    <option value="19154042-35AB-4533-8B3B-7D02F69721E4">Grande</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <label for="provincia" class="form-label">Provincia:</label>
+                <select id="provincia" name="provincia" class="form-select">
+                    <option value="">Selecciona una provincia</option>
+                    <option value="AD82B082-EB91-4FBB-8218-6FCFAC0F91EF">Buenos Aires</option>
+                    <option value="B9D686F4-4CD2-4382-BDD6-A39803FC31B3">Salta</option>
+                    <option value="39720254-CA8E-4AAF-A70C-B445850E8C23">Córdoba</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <label for="telefono" class="form-label">Teléfono:</label>
+                <input type="tel" class="form-control" id="telefono" name="telefono">
+            </div>
+            <div class="mb-3">
+                <label for="nombre-titular" class="form-label">Nombre del Titular:</label>
+                <input type="text" class="form-control" id="nombre-titular" name="nombre-titular">
+            </div>
+            <div class="mb-3">
+                <label for="apellido-titular" class="form-label">Apellido del Titular:</label>
+                <input type="text" class="form-control" id="apellido-titular" name="apellido-titular">
+            </div>
+            <!-- <div class="mb-3">
+                <label for="fecha-alta" class="form-label">Fecha de Alta:</label>
+                <input type="date" class="form-control" id="fecha-alta" name="fecha-alta">
+            </div> -->
+            <button type="submit" class="btn btn-primary">Actualizar</button>
+        </form>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.3/js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.7.1.js"></script>
+    <script>
+        var sucursalesGlobales = [];
+        async function cargarSucursales() {
+            
+            $.ajax({
+                url: 'https://localhost:7048/api/Sucursal/configuraciones',
+                method: 'GET',
+                success: function(data) {
+                    var sjjs = data;
+                    console.log(sjjs);
+                    const $select = $('#idSucursal');
+                    const $form = $('#formulario');
+                    data.forEach(function(configuracion) {
+                        $form.css(configuracion.nombre, configuracion.valor);
+                    });
+                },
+                error: function(jqXHR, textStatus, errorThrown) {
+                    console.error('Error al cargar las configuraciones:', textStatus, errorThrown);
+                }
+            });
+
+            $.ajax({
+                url: 'https://localhost:7048/api/Sucursal/sucursales',
+                method: 'GET',
+                success: function(data) {
+                    const $select = $('#idSucursal');
+                    sucursalesGlobales = data;
+                    data.forEach(function(sucursal) {
+                        const $option = $('<option></option>')
+                            .val(sucursal.id)
+                            .text(sucursal.nombre);
+                        $select.append($option);
+                        
+                    });
+                },
+                error: function(jqXHR, textStatus, errorThrown) {
+                    console.error('Error al cargar las sucursales:', textStatus, errorThrown);
+                }
+            });
+        }
+
+        async function actualizarSucursalesGlobales() {
+            $.ajax({
+                url: 'https://localhost:7048/api/Sucursal/sucursales',
+                method: 'GET',
+                success: function(data) {
+                    sucursalesGlobales = data;
+                },
+                error: function(jqXHR, textStatus, errorThrown) {
+                    console.error('Error al cargar las sucursales:', textStatus, errorThrown);
+                }
+            });
+        }
+
+        $(document).ready(function () {
+            cargarSucursales();
+            $('form').submit(function (event) {
+                event.preventDefault();
+                actualizarSucursalesGlobales();
+                const id = $('#idSucursal').val();
+                const nombre = $('#nombre').val();
+                const ciudad = $('#ciudad').val();
+                const idTipo = $('#tipo').val();
+                const idProvincia = $('#provincia').val();
+                const telefono = $('#telefono').val();
+                const nombreTitular = $('#nombre-titular').val();
+                const apellidoTitular = $('#apellido-titular').val();
+                var fechaAlta = Date.now();
+
+                if (id == null || id == "" || nombre == "" || nombre == null || ciudad == null || ciudad == "" || idTipo == null || idTipo == "" || 
+                    idProvincia == null || idProvincia == "" || telefono == null || telefono == "" || nombreTitular == null || nombreTitular == "" || apellidoTitular == null
+                    || apellidoTitular == "") {
+                        alert('Todos los campos son obligatorios');
+                        return;
+                }
+                
+
+                sucursalesGlobales.forEach(function(sucursal) {
+                        if (sucursal.id == id) {
+                            fechaAlta = sucursal.fechaAlta;
+                        }
+                    });
+
+                const data = {
+                    id,
+                    nombre,
+                    ciudad,
+                    idTipo,
+                    idProvincia,
+                    telefono,
+                    nombreTitular,
+                    apellidoTitular,
+                    fechaAlta
+                };
+
+                $.ajax({
+                    type: 'PUT',
+                    url: 'https://localhost:7048/api/Sucursal/sucursal',
+                    contentType: 'application/json',
+                    data: JSON.stringify(data),
+                    success: function (response) {
+                        alert('Sucursal guardada con éxito');
+                    },
+                    error: function (error) {
+                        alert('Error al guardar la sucursal');
+                    }
+                });
+            });
+        });
+
+
+    </script>
+</body>
+</html>
